@@ -1,0 +1,34 @@
+# Hospital Management System
+
+This is a simple **Hospital Management System** implemented in C. It allows users to manage patient records by adding, viewing, searching, and deleting patient information stored in a binary file.
+
+## Features
+
+- **Add Patient**: Add a new patient record with details such as ID, name, age, gender, and disease.
+- **View All Patients**: Display all patient records stored in the system.
+- **Search Patient**: Search for a patient by their unique ID.
+- **Delete Patient**: Delete a patient record by their ID.
+- **Exit**: Exit the program.
+
+## How It Works
+
+The program uses a binary file (`patients.dat`) to store patient records persistently. Each record is stored as a structure containing the following fields:
+
+- `id`: Patient ID (integer)
+- `name`: Patient name (string)
+- `age`: Patient age (integer)
+- `gender`: Patient gender (string)
+- `disease`: Patient disease (string)
+
+## Prerequisites
+
+- A C compiler (e.g., GCC)
+- Basic knowledge of C programming
+
+## How to Compile and Run
+
+1. Clone this repository or download the source code.
+2. Open a terminal and navigate to the project directory.
+3. Compile the code using GCC:
+   ```sh
+   gcc HSY.c -o HospitalManagementSystem
